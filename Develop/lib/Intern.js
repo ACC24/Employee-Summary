@@ -6,10 +6,10 @@ class Intern extends Employee {
         super(name, id, email);
         this.school = school;
         this.getSchool = () => {
-            this.school;
+            return this.school;
         }
         this.getRole = () => {
-            return Intern;
+            return "Intern";
         }
     }
 }
