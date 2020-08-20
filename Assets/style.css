@@ -1,5 +1,4 @@
-#blurb {
-   
-    background-color: lightgreen;
-    
-};
+.jumbotron, .card-header  {
+       background-color: lightseagreen
+    };
+

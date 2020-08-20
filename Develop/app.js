@@ -168,7 +168,7 @@ getIntern = () => {
         });
 };
     
-function buildTeam() {
+buildTeam = () => {
     if (!fs.existsSync(OUTPUT_DIR)) {
         fs.mkdirSync(OUTPUT_DIR)
     };
